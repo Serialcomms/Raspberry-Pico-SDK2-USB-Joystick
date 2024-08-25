@@ -1,0 +1,123 @@
+USB Bus Reset command received from host, function=usb_irq_bus_reset
+Disabling Setup Request Interrupts
+Processing USB Bus Reset command
+Build Host Default Endpoint 0, DPRAM Address=50100100
+Build Pico Default Endpoint 0, DPRAM Address=50100100
+Enabling Setup Request Interrupts
+Enabling Buffer Completion Interrupts
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 01, 00, 00, 40, 00
+EP0 handler to Host, clearing buffer status, buffer bytes=8, queue level=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=05, direction=0, type=00
+Setup Packet Bytes=00, 05, 02, 00, 00, 00, 00, 00
+Setup Device Handler, Device Address Changed, Pico New Address=2
+EP0 handler to Host, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 01, 00, 00, 12, 00
+EP0 handler to Host, clearing buffer status, buffer bytes=18, queue level=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 02, 00, 00, FF, 00
+EP0 handler to Host, clearing buffer status, buffer bytes=9, queue level=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 02, 00, 00, 22, 00
+EP0 handler to Host, clearing buffer status, buffer bytes=34, queue level=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 03, 00, 00, FF, 00
+Sending Language String, Index=0, bytes=09, 04
+EP0 handler to Host, clearing buffer status, buffer bytes=4, queue level=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 02, 03, 09, 04, FF, 00
+String index=2, string length=17, buffer length=36
+Sending Text String, Index=2, Length=36, String=Pico HID Joystick
+EP0 handler to Host, clearing buffer status, buffer bytes=36, queue level=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 01, 00, 00, 12, 00
+EP0 handler to Host, clearing buffer status, buffer bytes=18, queue level=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 02, 00, 00, 09, 00
+EP0 handler to Host, clearing buffer status, buffer bytes=9, queue level=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 02, 00, 00, 22, 00
+EP0 handler to Host, clearing buffer status, buffer bytes=34, queue level=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=09, direction=0, type=00
+Setup Packet Bytes=00, 09, 01, 00, 00, 00, 00, 00
+USB Set Configuration, Number=1
+USB Build Function Endpoint(s)
+Build Host Function Endpoint 1, Queue Size=64, Endpoint Control=AC000180
+USB Set HID Configuration ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EP0 handler to Host, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=1, request=0A, direction=0, type=01
+Setup Packet Bytes=21, 0A, 00, 00, 00, 00, 00, 00
+Setup Class Request to Pico, Request=0A
+HID Setup Interface, Setting Idle, Request=10
+EP0 handler to Host, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=1, request=06, direction=128, type=00
+Setup Packet Bytes=81, 06, 00, 22, 00, 00, 99, 00
+Setup Interface Standard, Request Type=0, direction=128
+EP0 handler to Host, clearing buffer status, buffer bytes=64, queue level=25, last PID=8192
+ep0_queue_runner_to_host Queue Length = 25
+Continue Queued Transfer, data count = 25
+EP0 handler to Host, clearing buffer status, buffer bytes=25, queue level=0, last PID=0
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 02, 00, 00, 09, 00
+EP0 handler to Host, clearing buffer status, buffer bytes=9, queue level=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 02, 00, 00, 22, 00
+EP0 handler to Host, clearing buffer status, buffer bytes=34, queue level=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 03, 00, 00, FF, 00
+Sending Language String, Index=0, bytes=09, 04
+EP0 handler to Host, clearing buffer status, buffer bytes=4, queue level=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 01, 03, 09, 04, FF, 00
+String index=1, string length=12, buffer length=26
+Sending Text String, Index=1, Length=26, String=Raspberry Pi
+EP0 handler to Host, clearing buffer status, buffer bytes=26, queue level=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 02, 03, 09, 04, FF, 00
+String index=2, string length=17, buffer length=36
+Sending Text String, Index=2, Length=36, String=Pico HID Joystick
+EP0 handler to Host, clearing buffer status, buffer bytes=36, queue level=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+Time=00:00:03, Joystick HID = 40, BF, 78, 00, 00, 01
+Time=00:00:03, Joystick Data: Angle=6, Rudder=64, Throttle=191, Pointer x/y=120/0
+EP1 handler to Host, clearing buffer status, transfer bytes=6
+Time=00:00:04, Joystick HID = 48, B7, 77, 0C, 01, 02
+Time=00:00:04, Joystick Data: Angle=12, Rudder=72, Throttle=183, Pointer x/y=119/12
+EP1 handler to Host, clearing buffer status, transfer bytes=6
+Time=00:00:05, Joystick HID = 50, AF, 75, 18, 02, 04
+Time=00:00:05, Joystick Data: Angle=18, Rudder=80, Throttle=175, Pointer x/y=117/24
+EP1 handler to Host, clearing buffer status, transfer bytes=6
+T
