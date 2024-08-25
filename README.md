@@ -4,13 +4,9 @@
 
 Improved version of native USB Joystick, built against SDK version 2.
 
-All interrupt-driven, repeating background task not required.
-
 Intended for anyone with a general interest in USB on a Raspberry Pico, or looking for a working example to adapt for other usage - e.g. MIDI.
 
 A Serial/CDC version is in development.
-
-
 
 ### Usage
 
@@ -49,7 +45,7 @@ The properties windows should update continually at a nominal rate of 1Hz.
 
 </p>
 
-Pre-Built .uf2 [available here](https://github.com/Serialcomms/Raspberry-Pico-SDK2-USB/releases/tag/Pico_HID_Joystick)
+Pre-Built .uf2 [available here](https://github.com/Serialcomms/Raspberry-Pico-SDK2-USB-Joystick/releases/tag/v_0.1)
 
 </p>
 </details>
