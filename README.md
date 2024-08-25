@@ -4,7 +4,7 @@
 
 Improved version of native USB Joystick, built against SDK version 2.
 
-All interrupt-driven, continual background task not required.
+All interrupt-driven, repeating background task not required.
 
 Intended for anyone with a general interest in USB on a Raspberry Pico, or looking for a working example to adapt for other usage - e.g. MIDI.
 
@@ -34,7 +34,7 @@ On a Windows machine, type joy.cpl into the search box to display the game contr
 <img src="screenshots/joy_cpl.png" alt="Control Panel" title="Game Controllers" width="25%" height="25%">
 <img src="screenshots/pico_sdk_joystick.png" alt="Joystick" title="Joystick Properties" width="20%" height="20%">
 
-The properties windows should update continually at a nominal rate of 3Hz.
+The properties windows should update continually at a nominal rate of 1Hz.
 
 </p>
 
