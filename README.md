@@ -74,7 +74,8 @@ Testing has been performed with a Windows 10 22H2 Host and a Pico Chip B2, ROM V
 * [Microsoft USB Control Transfer](https://learn.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-control-transfer)
 * [USB Descriptor and Request Parser](https://eleccelerator.com/usbdescreqparser/)
 * [Thesycon USB Descriptor Dumper](https://www.thesycon.de/eng/usb_descriptordumper.shtml)
-
+* [Tana USB Sniffer](https://github.com/tana/pico_usb_sniffer)
+* [Ataradov USB Sniffer](https://github.com/ataradov/usb-sniffer-lite)
 * [phind.com](https://phind.com)
 
 </p>
