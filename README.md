@@ -58,7 +58,7 @@ Pre-Built .uf2 [available here](https://github.com/Serialcomms/Raspberry-Pico-SD
 
 #### Pico Debug Output
 
-<img src="screenshots/putty_screen.png" alt="debug" title="Debug Output" width="40%" height="40%">
+<img src="screenshots/PuTTY_session.png" alt="PuTTY" title="PuTTY Session" width="40%" height="40%">
 
 </p>
 </details>
