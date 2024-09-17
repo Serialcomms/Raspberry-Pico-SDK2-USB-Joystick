@@ -6,7 +6,9 @@ Improved version of native USB Joystick, built against SDK version 2.
 
 Intended for anyone with a general interest in USB on a Raspberry Pico, or looking for a working example to adapt for other usage - e.g. MIDI.
 
-A Serial/CDC version is in development.
+All interrupt-driven, no background task required. 
+
+A Serial/CDC version is in testing.
 
 ### Usage
 
