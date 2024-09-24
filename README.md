@@ -8,7 +8,7 @@ Intended for anyone with a general interest in USB on a Raspberry Pico, or looki
 
 All interrupt-driven, no background task required. 
 
-A Serial/CDC version is in testing.
+A Serial/CDC version is [available here](https://github.com/Serialcomms/Raspberry-Pico-USB-Serial_BETA)
 
 ### Usage
 
